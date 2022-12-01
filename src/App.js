@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Welcome to React Front-End World</h1>
       <Routes>
-        <Route path='/' element={<Greeting />} />
+        <Route path="/" element={<Greeting />} />
       </Routes>
     </div>
   );

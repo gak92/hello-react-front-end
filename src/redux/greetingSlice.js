@@ -20,11 +20,11 @@ const initialState = {
 
 // Reducer using Slice
 export const greetingSlice = createSlice({
-  name: "greeting",
+  name: 'greeting',
   initialState,
   reducers: {},
   extraReducers: {
-    [getGreeting.fulfilled] : (state, action) => ({
+    [getGreeting.fulfilled]: (state, action) => ({
       ...state,
       greeting: action.payload,
     }),
