@@ -45,8 +45,6 @@
   </ul>
 </details>
 
-<details>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
